@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="85" column="75" lean-forward="true" selection-start-line="85" selection-start-column="75" selection-end-line="85" selection-end-column="75" />
+            <state relative-caret-position="424">
+              <caret line="130" column="85" selection-start-line="130" selection-start-column="85" selection-end-line="130" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Recovery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="153">
               <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,12 +52,12 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="884">
               <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -141,8 +141,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,27 +288,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiRegistration_(1) - 2019.11.03 at 23h 51m 29s.xml">
-      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ApiRegistration_(1) - 2019.11.03 at 23h 52m 47s.xml">
-      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ApiRegistration_(1) - 2019.11.04 at 16h 42m 11s.xml">
-      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ApiRegistration_(1) - 2019.11.04 at 16h 45m 17s.xml">
-      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ApiRegistration_(1) - 2019.11.04 at 16h 47m 00s.xml">
-      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ApiRegistration_(1) - 2019.11.04 at 16h 52m 04s.xml">
-      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ApiRegistration_(1) - 2019.11.04 at 16h 53m 37s.xml">
-      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ApiRegistration_(1) - 2019.11.04 at 16h 56m 32s.xml">
       <configuration name="ApiRegistration (1)" configurationId="TestNG" />
     </history-entry>
@@ -316,6 +295,27 @@
       <configuration name="ApiRegistration (1)" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ApiRegistration_(1) - 2019.11.04 at 17h 25m 08s.xml">
+      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ApiRegistration_(1) - 2019.11.05 at 22h 49m 15s.xml">
+      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ApiRegistration_(1) - 2019.11.05 at 22h 54m 34s.xml">
+      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ApiRegistration_(1) - 2019.11.05 at 23h 08m 02s.xml">
+      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ApiRegistration_(1) - 2019.11.05 at 23h 16m 39s.xml">
+      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ApiRegistration_(1) - 2019.11.05 at 23h 20m 17s.xml">
+      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ApiRegistration_(1) - 2019.11.05 at 23h 23m 36s.xml">
+      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ApiRegistration_(1) - 2019.11.05 at 23h 24m 18s.xml">
       <configuration name="ApiRegistration (1)" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -330,7 +330,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -345,7 +344,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49840087" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49253732" visible="true" weight="0.33260393" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49253732" weight="0.33260393" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49946696" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -464,17 +463,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiRegistrationHttp.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        <state relative-caret-position="424">
+          <caret line="130" column="85" selection-start-line="130" selection-start-column="85" selection-end-line="130" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Recovery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="153">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -482,13 +483,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRegistration.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="85" column="75" lean-forward="true" selection-start-line="85" selection-start-column="75" selection-end-line="85" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="884">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
         </state>
       </provider>
     </entry>

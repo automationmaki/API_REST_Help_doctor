@@ -85,6 +85,63 @@ public class ApiRegistration {
         System.out.println("The status code recieved: " + statusCode);
         System.out.println("Response body: " + response.body().asString());
     }
+    @Test(description = "Sent сyrillic email")
+    public void sentCyrillicEmail() {
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("email",  "доктор@mail.ru");
+        RequestSpecification request = RestAssured.given();
+        request.header("Content-Type", "application/json");
+        request.body(requestBody.toString());
+        Response response = request.post("http://helpdoctor.tmweb.ru/public/api/registration");
+        int statusCode = response.getStatusCode();
+        Assert.assertEquals(statusCode, 400);
+        Assert.assertEquals(response.body().asString(), "{\"status\":\"email is not valid\"}");
+        System.out.println("The status code recieved: " + statusCode);
+        System.out.println("Response body: " + response.body().asString());
+    }
+    @Test(description = "Sent GET request")
+    public void sentGetRequest() {
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("email", RandomStringUtils.randomAlphabetic(5) + "@mail.ru");
+        RequestSpecification request = RestAssured.given();
+        request.header("Content-Type", "application/json");
+        request.body(requestBody.toString());
+        Response response = request.get("http://helpdoctor.tmweb.ru/public/api/registration");
+        int statusCode = response.getStatusCode();
+        Assert.assertEquals(statusCode, 405);
+        System.out.println("The status code recieved: " + statusCode);
+    }
+    @Test(description = "Does not send header")
+    public void notSendHeader() {
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("email", RandomStringUtils.randomAlphabetic(5) + "@mail.ru");
+        RequestSpecification request = RestAssured.given();
+        request.body(requestBody.toString());
+        Response response = request.post("http://helpdoctor.tmweb.ru/public/api/registration");
+        int statusCode = response.getStatusCode();
+        Assert.assertEquals(statusCode, 400);
+        Assert.assertEquals(response.body().asString(), "{\"status\":\"Content-Type not json\"}");
+        System.out.println("The status code recieved: " + statusCode);
+        System.out.println("Response body: " + response.body().asString());
+    }
+    @Test(description = "Sent not existing parameter")
+    public void sentNotExistingParameter() {
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("email", RandomStringUtils.randomAlphabetic(5) + "@mail.ru");
+        requestBody.put("email", RandomStringUtils.randomAlphabetic(5) + "@mail.ru");
+        requestBody.put("mail", "ivan@test.ru");
+        RequestSpecification request = RestAssured.given();
+        request.header("Content-Type", "application/json");
+        request.body(requestBody.toString());
+        Response response = request.post("http://helpdoctor.tmweb.ru/public/api/registration");
+        int statusCode = response.getStatusCode();
+        Assert.assertEquals(statusCode, 400);
+        Assert.assertEquals(response.body().asString(), "{\"status\":\"json not valid. 'email' field required and STR type\"}");
+        System.out.println("The status code recieved: " + statusCode);
+        System.out.println("Response body: " + response.body().asString());
+    }
+
+
 
 
 
