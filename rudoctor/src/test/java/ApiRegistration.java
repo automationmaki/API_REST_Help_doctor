@@ -67,7 +67,7 @@ public class ApiRegistration {
         Response response = request.post("http://helpdoctor.tmweb.ru/public/api/registration");
         int statusCode = response.getStatusCode();
         Assert.assertEquals(statusCode, 403);
-        Assert.assertEquals(response.body().asString(), "{\"status\":\"Пользователь с таким почтовым адресом уже зарегистрирован\"}");
+        Assert.assertEquals(response.body().asString(), "{\"status\":\"user with this email is already registered\"}");
         System.out.println("The status code recieved: " + statusCode);
         System.out.println("Response body: " + response.body().asString());
     }
@@ -80,8 +80,8 @@ public class ApiRegistration {
         request.body(requestBody.toString());
         Response response = request.post("http://helpdoctor.tmweb.ru/public/api/registration");
         int statusCode = response.getStatusCode();
-        Assert.assertEquals(statusCode, 500);
-        Assert.assertEquals(response.body().asString(), "{\"status\":\"Ошибка при отправке письма сервисом или указан несуществующий e-mail\"}");
+        Assert.assertEquals(statusCode, 400);
+        Assert.assertEquals(response.body().asString(), "{\"status\":\"json not valid. 'email' format is not correct\"}");
         System.out.println("The status code recieved: " + statusCode);
         System.out.println("Response body: " + response.body().asString());
     }
@@ -95,7 +95,7 @@ public class ApiRegistration {
         Response response = request.post("http://helpdoctor.tmweb.ru/public/api/registration");
         int statusCode = response.getStatusCode();
         Assert.assertEquals(statusCode, 400);
-        Assert.assertEquals(response.body().asString(), "{\"status\":\"email is not valid\"}");
+        Assert.assertEquals(response.body().asString(), "{\"status\":\"json not valid. 'email' format is not correct\"}");
         System.out.println("The status code recieved: " + statusCode);
         System.out.println("Response body: " + response.body().asString());
     }
