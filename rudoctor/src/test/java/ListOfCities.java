@@ -1,14 +1,12 @@
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ListOfCities {
     @Test(description = "Sent all parametres")
     public void sentAllParametres() {
-        JSONObject requestBody = new JSONObject();
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
         Response response = request.get("http://helpdoctor.tmweb.ru/public/api/profile/cities/77");
@@ -19,7 +17,6 @@ public class ListOfCities {
     }
     @Test(description = "Sent POST request")
     public void sentPostRequest() {
-        JSONObject requestBody = new JSONObject();
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
         Response response = request.post("http://helpdoctor.tmweb.ru/public/api/profile/cities/77");
