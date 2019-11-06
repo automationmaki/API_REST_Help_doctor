@@ -68,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ListOfSpecialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="357">
+              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -344,12 +344,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiRegistration_(1) - 2019.11.06 at 23h 31m 20s.xml">
-      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ApiRegistration_(1) - 2019.11.06 at 23h 32m 25s.xml">
-      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ListOfSubjectRussianFederation - 2019.11.06 at 23h 38m 54s.xml">
       <configuration name="ListOfSubjectRussianFederation" configurationId="TestNG" />
     </history-entry>
@@ -374,6 +368,12 @@
     <history-entry file="ListOfOrganization - 2019.11.07 at 00h 06m 23s.xml">
       <configuration name="ListOfOrganization" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ListOfSpecialization - 2019.11.07 at 00h 09m 34s.xml">
+      <configuration name="ListOfSpecialization" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ListOfSpecialization - 2019.11.07 at 00h 09m 58s.xml">
+      <configuration name="ListOfSpecialization" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,14 +386,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49919224" visible="true" weight="0.21237993" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49919224" visible="true" weight="0.21237993" />
       <window_info id="Structure" order="6" sideWeight="0.50080776" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49946696" weight="0.32932165" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5074627" side_tool="true" weight="0.32936078" />
@@ -401,7 +400,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49840087" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49253732" visible="true" weight="0.33260393" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49253732" weight="0.33260393" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49946696" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -590,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ListOfSpecialization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="357">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
