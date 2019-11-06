@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f12125a-e102-4784-a6fb-ecd324aa6bcf" name="Default Changelist" comment="Initital commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ListOfSubjectRussianFederation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApiRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ListOfCities.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ListOfSubjectRussianFederation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <caret line="28" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ListOfCities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/test/java/DeletingUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApiRegistration.java" />
         <option value="$PROJECT_DIR$/src/test/java/ListOfSubjectRussianFederation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ListOfCities.java" />
       </list>
     </option>
   </component>
@@ -194,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ListOfSubjectRussianFederation">
+  <component name="RunManager" selected="TestNG.ListOfCities">
     <configuration name="ApiRegistration (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ru.doctor" />
       <option name="PACKAGE_NAME" value="" />
@@ -217,22 +228,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiRegistration.sentAllParametres (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="rudoctor" />
+    <configuration name="DeletingUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ru.doctor" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ApiRegistration" />
-      <option name="METHOD_NAME" value="sentAllParametres" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="DeletingUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeletingUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ListOfCities" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ru.doctor" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeletingUser" />
+      <option name="MAIN_CLASS_NAME" value="ListOfCities" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -253,18 +263,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.ApiRegistration" />
-      <item itemvalue="TestNG.ApiRegistration.sentAllParametres (1)" />
       <item itemvalue="TestNG.ApiRegistration (1)" />
       <item itemvalue="TestNG.DeletingUser" />
       <item itemvalue="TestNG.ListOfSubjectRussianFederation" />
+      <item itemvalue="TestNG.ListOfCities" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ListOfCities" />
         <item itemvalue="TestNG.ListOfSubjectRussianFederation" />
         <item itemvalue="TestNG.ApiRegistration (1)" />
         <item itemvalue="TestNG.DeletingUser" />
         <item itemvalue="TestNG.ApiRegistration" />
-        <item itemvalue="TestNG.ApiRegistration.sentAllParametres (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -521,7 +531,17 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ListOfSubjectRussianFederation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <caret line="28" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ListOfCities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
