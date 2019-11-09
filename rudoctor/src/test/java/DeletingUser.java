@@ -4,9 +4,16 @@ import io.restassured.specification.RequestSpecification;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import static io.restassured.config.EncoderConfig.encoderConfig;
+
 public class DeletingUser {
+    @BeforeTest
+    public void setUp(){
+        RestAssured.config = RestAssured.config().encoderConfig(encoderConfig().appendDefaultContentCharsetToContentTypeIfUndefined(false));
+    }
     @Test(description = "Sent all parametres")
     public void sentAllParametres() {
         JSONObject requestBody = new JSONObject();
