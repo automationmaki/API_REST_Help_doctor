@@ -58,4 +58,35 @@ public class RecievingToken {
         System.out.println("The status code recieved: " + statusCode);
         System.out.println("Response body: " + response.body().asString());
     }
+    @Test(description = "Sent invalid header")
+    public void sentInvalidHeader() {
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("email", "ivanryshov@yandex.ru");
+        requestBody.put("password", "dHJra29PJTl+JQ==");
+        RequestSpecification request = RestAssured.given();
+        request.header("Content-Type", "application/xml");
+        request.body(requestBody.toString());
+        Response response = request.post("http://helpdoctor.tmweb.ru/public/api/auth/login");
+        int statusCode = response.getStatusCode();
+        Assert.assertEquals(statusCode, 400);
+        Assert.assertEquals(response.body().asString(), "{\"status\":\"Content-Type not json\"}");
+        System.out.println("The status code recieved: " + statusCode);
+        System.out.println("Response body: " + response.body().asString());
+    }
+    @Test(description = "Sent invalid email")
+    public void sentInvalidEmail() {
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("email", " ");
+        requestBody.put("password", "dHJra29PJTl+JQ==");
+        RequestSpecification request = RestAssured.given();
+        request.header("Content-Type", "application/json");
+        request.body(requestBody.toString());
+        Response response = request.post("http://helpdoctor.tmweb.ru/public/api/auth/login");
+        int statusCode = response.getStatusCode();
+        Assert.assertEquals(statusCode, 400);
+        System.out.println("The status code recieved: " + statusCode);
+        System.out.println("Response body: " + response.body().asString());
+    }
+
+
 }
