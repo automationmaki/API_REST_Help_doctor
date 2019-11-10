@@ -14,8 +14,8 @@ public class RecievingToken {
     public void setUp(){
         RestAssured.config = RestAssured.config().encoderConfig(encoderConfig().appendDefaultContentCharsetToContentTypeIfUndefined(false));
     }
-    @Test(description = "Sent all parameters")
-    public void sentAllParameters() {
+    @Test(description = "Sent invalid password")
+    public void sentInvalidPassword() {
         JSONObject requestBody = new JSONObject();
         requestBody.put("email","ivan@mail.ru");
         requestBody.put("password", "VGhpcyBpcyBhbiBlbmNvZGVkIHN0cmluZw==");
@@ -24,8 +24,8 @@ public class RecievingToken {
         request.body(requestBody.toString());
         Response response = request.post("http://helpdoctor.tmweb.ru/public/api/auth/login");
         int statusCode = response.getStatusCode();
-        Assert.assertEquals(statusCode, 200);
-//        Assert.assertEquals(response.body().asString(), "{\"status\":\"Пользователь с таким почтовым адресом не зарегистрирован\"}");
+        Assert.assertEquals(statusCode, 401);
+        Assert.assertEquals(response.body().asString(), "{\"status\":\"Неверный пароль.\"}");
         System.out.println("The status code recieved: " + statusCode);
         System.out.println("Response body: " + response.body().asString());
     }
