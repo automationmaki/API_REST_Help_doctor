@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f12125a-e102-4784-a6fb-ecd324aa6bcf" name="Default Changelist" comment="Initital commit" />
+    <list default="true" id="3f12125a-e102-4784-a6fb-ecd324aa6bcf" name="Default Changelist" comment="Initital commit">
+      <change beforePath="$PROJECT_DIR$/src/test/java/RecievingToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RecievingToken.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="30" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="307">
+              <caret line="21" column="13" selection-start-line="17" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RecievingToken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="289">
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -341,21 +343,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiRegistration_(1) - 2019.11.09 at 23h 25m 19s.xml">
-      <configuration name="ApiRegistration (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RecievingToken - 2019.11.09 at 23h 34m 54s.xml">
-      <configuration name="RecievingToken" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RecievingToken - 2019.11.09 at 23h 35m 49s.xml">
-      <configuration name="RecievingToken" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Recovery - 2019.11.09 at 23h 36m 17s.xml">
-      <configuration name="Recovery" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Recovery - 2019.11.09 at 23h 36m 42s.xml">
-      <configuration name="Recovery" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ListOfOrganization - 2019.11.09 at 23h 37m 15s.xml">
       <configuration name="ListOfOrganization" configurationId="TestNG" />
     </history-entry>
@@ -371,6 +358,21 @@
     <history-entry file="RecievingToken - 2019.11.09 at 23h 42m 22s.xml">
       <configuration name="RecievingToken" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="RecievingToken - 2019.11.10 at 15h 21m 40s.xml">
+      <configuration name="RecievingToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RecievingToken - 2019.11.10 at 15h 44m 28s.xml">
+      <configuration name="RecievingToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RecievingToken - 2019.11.10 at 15h 48m 20s.xml">
+      <configuration name="RecievingToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RecievingToken - 2019.11.10 at 15h 48m 56s.xml">
+      <configuration name="RecievingToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RecievingToken - 2019.11.10 at 15h 50m 05s.xml">
+      <configuration name="RecievingToken" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,7 +385,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -525,16 +526,6 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRegistration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ListOfSubjectRussianFederation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -595,10 +586,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="21" column="13" selection-start-line="17" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RecievingToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        <state relative-caret-position="289">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
